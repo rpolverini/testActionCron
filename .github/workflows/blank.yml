@@ -4,10 +4,10 @@ name: Test Cron jobs schedule
 
 on:
   schedule:
-    - cron: "22 14 * * *"
-    - cron: "22 14 * * *"
-    - cron: "22 10 * * *"
-    - cron: "22 10 * * *"
+    - cron: "33 22 * * *"
+    - cron: "33 22 * * *"
+    - cron: "45 22 * * *"
+    - cron: "45 22 * * *"
 
 jobs:
   # This workflow contains a  job called "cron-1"
