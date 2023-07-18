@@ -1,0 +1,57 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Test Cron jobs schedule
+
+on:
+  schedule:
+    - cron: "22 14 * * *"
+    - cron: "22 14 * * *"
+    - cron: "22 10 * * *"
+    - cron: "22 10 * * *"
+
+jobs:
+  # This workflow contains a  job called "cron-1"
+  cron-1:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+ 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world at Cron 1!
+  # This workflow contains a  job called "cron-2"
+  cron-2:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+ 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world at Cron 2!
+        
+        
+  # This workflow contains a  job called "cron-3"
+  cron-3:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+ 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world at Cron 3!
+        
+        
+  # This workflow contains a  job called "cron-4"
+  cron-4:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+ 
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world at Cron 4!
+      
