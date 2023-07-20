@@ -5,9 +5,6 @@ name: Test Cron jobs schedule
 on:
   schedule:
     - cron: "33 22 * * *"
-    - cron: "33 22 * * *"
-    - cron: "45 22 * * *"
-    - cron: "45 22 * * *"
 
 jobs:
   # This workflow contains a  job called "cron-1"
